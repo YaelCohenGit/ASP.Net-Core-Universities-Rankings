@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "8d72bc06-92f7-4767-85fc-cec8b2348493",
+		"name": "lesson11",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30878972"
+	},
+	"item": [
+		{
+			"name": "get countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7164/api/country",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7164",
+					"path": [
+						"api",
+						"country"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7164/api/universityRanking",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7164/api/universityRanking",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7164",
+					"path": [
+						"api",
+						"universityRanking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7164/api/country?countryid=10",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7164",
+					"path": [
+						"api",
+						"country"
+					],
+					"query": [
+						{
+							"key": "countryid",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
